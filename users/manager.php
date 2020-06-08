@@ -2,8 +2,8 @@
 
 session_start();
 
-include 'D:\OSPanel\domains\n-lb-2\users.php';
-include 'D:\OSPanel\domains\n-lb-2\lang.php';
+include '..\users.php';
+include '..\lang.php';
 
 if($_GET["exit"]){ session_destroy(); header("Location: ..\index.php"); }
 
