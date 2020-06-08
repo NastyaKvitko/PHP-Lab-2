@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include 'D:\OSPanel\domains\n-lb-2\users.php';
+include '\users.php';
 
 $login = $_POST["login"];
 $password = $_POST["password"];
